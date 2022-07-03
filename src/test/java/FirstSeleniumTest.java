@@ -18,6 +18,7 @@ public class FirstSeleniumTest {
 
     }
 
+
     @AfterMethod
     public void closeBrowser(){
         chromeParluks.quit();

@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1edc85f0-a9e5-411f-825d-bfdcaf6f7917" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classroomSix/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classroomSix/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classroomSix/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Footer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ProductsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FirstSeleniumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/claccRoomSeven/SwagLabsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworkNine/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mavenTestNGHomework/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mavenTestNGHomework/MavenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mavenTestNGHomework/PageTitleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstSeleniumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,31 +37,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/MY_personal/KURSI/TEST_Automatization_kursi/Project/NadezdaGavronovaTestAutomation_2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/MY_personal/KURSI/TEST_Automatization_kursi/Project/NadezdaGavronovaTestAutomation_2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\MY_personal\KURSI\TEST_Automatization_kursi\Project\NadezdaGavronovaTestAutomation_2" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mavenTestNGHomework" />
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.SwagLabsTest.testSuccessLogin">
-    <configuration name="SwagLabsTest.testErrorMessageWithPOM" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.MavenTest">
+    <configuration name="MavenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.MavenTest" />
       <module name="NadezdaGavronovaTestAutomation_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="claccRoomSeven.*" />
+          <option name="PATTERN" value="mavenTestNGHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="claccRoomSeven" />
-      <option name="MAIN_CLASS_NAME" value="claccRoomSeven.SwagLabsTest" />
-      <option name="METHOD_NAME" value="testErrorMessageWithPOM" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NadezdaGavronovaTestAutomation_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mavenTestNGHomework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
+      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.CalculatorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.testDivide" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NadezdaGavronovaTestAutomation_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mavenTestNGHomework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
+      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.CalculatorTest" />
+      <option name="METHOD_NAME" value="testDivide" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -78,17 +103,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwagLabsTest.testErrorMessageWithoutUsernameWPOM" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.testMultiply" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NadezdaGavronovaTestAutomation_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="claccRoomSeven.*" />
+          <option name="PATTERN" value="mavenTestNGHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="claccRoomSeven" />
-      <option name="MAIN_CLASS_NAME" value="claccRoomSeven.SwagLabsTest" />
-      <option name="METHOD_NAME" value="testErrorMessageWithoutUsernameWPOM" />
+      <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
+      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.CalculatorTest" />
+      <option name="METHOD_NAME" value="testMultiply" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -96,54 +121,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwagLabsTest.testSamplePage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PageTitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NadezdaGavronovaTestAutomation_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="claccRoomSeven.*" />
+          <option name="PATTERN" value="mavenTestNGHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="claccRoomSeven" />
-      <option name="MAIN_CLASS_NAME" value="claccRoomSeven.SwagLabsTest" />
-      <option name="METHOD_NAME" value="testSamplePage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SwagLabsTest.testSuccessLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NadezdaGavronovaTestAutomation_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="claccRoomSeven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="claccRoomSeven" />
-      <option name="MAIN_CLASS_NAME" value="claccRoomSeven.SwagLabsTest" />
-      <option name="METHOD_NAME" value="testSuccessLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SwagLabsTest.testSuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NadezdaGavronovaTestAutomation_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="claccRoomSeven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="claccRoomSeven" />
-      <option name="MAIN_CLASS_NAME" value="claccRoomSeven.SwagLabsTest" />
-      <option name="METHOD_NAME" value="testSuccessfulLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
+      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.PageTitleTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -152,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SwagLabsTest.testSuccessLogin" />
-        <item itemvalue="TestNG.SwagLabsTest.testErrorMessageWithPOM" />
-        <item itemvalue="TestNG.SwagLabsTest.testSuccessfulLogin" />
-        <item itemvalue="TestNG.SwagLabsTest.testErrorMessageWithoutUsernameWPOM" />
-        <item itemvalue="TestNG.SwagLabsTest.testSamplePage" />
+        <item itemvalue="Application.MavenTest" />
+        <item itemvalue="TestNG.PageTitleTest" />
+        <item itemvalue="TestNG.CalculatorTest" />
+        <item itemvalue="TestNG.CalculatorTest.testMultiply" />
+        <item itemvalue="TestNG.CalculatorTest.testDivide" />
       </list>
     </recent_temporary>
   </component>
