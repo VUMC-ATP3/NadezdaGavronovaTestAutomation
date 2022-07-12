@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1edc85f0-a9e5-411f-825d-bfdcaf6f7917" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutOverviewPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutSuccessPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/InventoryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumHomework/sauceDemoTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AcodemyShop/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/classRoomEight/AcodemyShopTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,17 +51,17 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.sauceDemoTests">
-    <configuration name="sauceDemoTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AcodemyShopTest.testSearch">
+    <configuration name="AcodemyShopTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NadezdaGavronovaTestAutomation_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumHomework.*" />
+          <option name="PATTERN" value="classRoomEight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seleniumHomework" />
-      <option name="MAIN_CLASS_NAME" value="seleniumHomework.sauceDemoTests" />
+      <option name="PACKAGE_NAME" value="classRoomEight" />
+      <option name="MAIN_CLASS_NAME" value="classRoomEight.AcodemyShopTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -74,17 +69,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sauceDemoTests.testCheckoutFieldsObligatory" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AcodemyShopTest.keyBoardActionTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NadezdaGavronovaTestAutomation_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumHomework.*" />
+          <option name="PATTERN" value="classRoomEight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seleniumHomework" />
-      <option name="MAIN_CLASS_NAME" value="seleniumHomework.sauceDemoTests" />
-      <option name="METHOD_NAME" value="testCheckoutFieldsObligatory" />
+      <option name="PACKAGE_NAME" value="classRoomEight" />
+      <option name="MAIN_CLASS_NAME" value="classRoomEight.AcodemyShopTest" />
+      <option name="METHOD_NAME" value="keyBoardActionTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -92,17 +87,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sauceDemoTests.testErrorMessageWithoutFirstname" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AcodemyShopTest.mouseActionsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NadezdaGavronovaTestAutomation_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumHomework.*" />
+          <option name="PATTERN" value="classRoomEight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seleniumHomework" />
-      <option name="MAIN_CLASS_NAME" value="seleniumHomework.sauceDemoTests" />
-      <option name="METHOD_NAME" value="testErrorMessageWithoutFirstname" />
+      <option name="PACKAGE_NAME" value="classRoomEight" />
+      <option name="MAIN_CLASS_NAME" value="classRoomEight.AcodemyShopTest" />
+      <option name="METHOD_NAME" value="mouseActionsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -110,17 +105,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sauceDemoTests.testErrorMessageWithoutLastname" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AcodemyShopTest.testJavascript" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NadezdaGavronovaTestAutomation_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumHomework.*" />
+          <option name="PATTERN" value="classRoomEight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seleniumHomework" />
-      <option name="MAIN_CLASS_NAME" value="seleniumHomework.sauceDemoTests" />
-      <option name="METHOD_NAME" value="testErrorMessageWithoutLastname" />
+      <option name="PACKAGE_NAME" value="classRoomEight" />
+      <option name="MAIN_CLASS_NAME" value="classRoomEight.AcodemyShopTest" />
+      <option name="METHOD_NAME" value="testJavascript" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -128,17 +123,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sauceDemoTests.testErrorMessageWithoutZipCode" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AcodemyShopTest.testSearch" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NadezdaGavronovaTestAutomation_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumHomework.*" />
+          <option name="PATTERN" value="classRoomEight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seleniumHomework" />
-      <option name="MAIN_CLASS_NAME" value="seleniumHomework.sauceDemoTests" />
-      <option name="METHOD_NAME" value="testErrorMessageWithoutZipCode" />
+      <option name="PACKAGE_NAME" value="classRoomEight" />
+      <option name="MAIN_CLASS_NAME" value="classRoomEight.AcodemyShopTest" />
+      <option name="METHOD_NAME" value="testSearch" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -148,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.sauceDemoTests" />
-        <item itemvalue="TestNG.sauceDemoTests.testCheckoutFieldsObligatory" />
-        <item itemvalue="TestNG.sauceDemoTests.testErrorMessageWithoutZipCode" />
-        <item itemvalue="TestNG.sauceDemoTests.testErrorMessageWithoutLastname" />
-        <item itemvalue="TestNG.sauceDemoTests.testErrorMessageWithoutFirstname" />
+        <item itemvalue="TestNG.AcodemyShopTest.testSearch" />
+        <item itemvalue="TestNG.AcodemyShopTest" />
+        <item itemvalue="TestNG.AcodemyShopTest.keyBoardActionTest" />
+        <item itemvalue="TestNG.AcodemyShopTest.mouseActionsTest" />
+        <item itemvalue="TestNG.AcodemyShopTest.testJavascript" />
       </list>
     </recent_temporary>
   </component>
