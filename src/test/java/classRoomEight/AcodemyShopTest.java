@@ -3,6 +3,7 @@ package classRoomEight;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -16,7 +17,9 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class AcodemyShopTest {
     WebDriver driver;
@@ -24,13 +27,21 @@ public class AcodemyShopTest {
 
     @BeforeMethod(alwaysRun = true)
     public void setupBrowser() throws MalformedURLException {
-        ChromeOptions options = new ChromeOptions();
+ //       ChromeOptions options = new ChromeOptions();
+        EdgeOptions browserOptions = new EdgeOptions();
+        browserOptions.setPlatformName("Windows 11");
+        browserOptions.setBrowserVersion("latest");
+        Map<String, Object> sauceOptions = new HashMap<>();
+        sauceOptions.put("build", "<NADIN_BUILD_1>");
+        sauceOptions.put("name", "Revision of remote webdriver");
+        sauceOptions.put("screenResolution", "2560x1600");
+        browserOptions.setCapability("sauce:options", sauceOptions);
+
+        URL url = new URL("https://oauth-nadezhda.gavronova-038fc:6babb604-f57b-433f-ab98-ae444b0d7f39@ondemand.eu-central-1.saucelabs.com:443/wd/hub");
+        driver = new RemoteWebDriver(url, browserOptions);
 //        EdgeOptions options = new EdgeOptions();
-        driver = new RemoteWebDriver(new URL("https://oauth-nadezhda.gavronova-038fc:6babb604-f57b-433f-ab98-ae444b0d7f39@ondemand.eu-central-1.saucelabs.com:443/wd/hub"), options);
+//        driver = new RemoteWebDriver(new URL("https://oauth-nadezhda.gavronova-038fc:6babb604-f57b-433f-ab98-ae444b0d7f39@ondemand.eu-central-1.saucelabs.com:443/wd/hub"), options);
 //       driver = new RemoteWebDriver(new URL("http://192.168.48.190:4444"), options);
- //       driver = new WebDriver(
-//                new URL("https://oauth-nadezhda.gavronova-038fc:6babb604-f57b-433f-ab98-ae444b0d7f39@ondemand.eu-central-1.saucelabs.com:443/wd/hub")
-//        );
 
 
         driver.manage().window().maximize();
