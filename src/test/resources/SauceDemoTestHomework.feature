@@ -46,52 +46,26 @@ Scenario: User is able to add item to the cart and this item is in the cart
     Then order is created successfully
 
   @browser
-  Scenario: User sees correct error message about fields obligatory
+  Scenario Outline: User sees correct error message about fields obligatory
     Given user is navigated to page 'https://www.saucedemo.com/'
     When user enters login 'standard_user' and password 'secret_sauce'
     And user clicks button to login
     When user adds item to cart
     And user clicks cart button
     When user clicks checkout button
-    When user enter name '' and lastname '' and zip ''
+    When user enter name '<name>' and lastname '<lastname>' and zip '<zip>'
     And user clicks continue button
-    Then user sees error 'Error: First Name is required'
+    Then user sees error '<error text>'
+    Examples:
+      | name  | lastname | zip     | error text                     |
+      |       |          |         | Error: First Name is required  |
+      |       | Firsova  | LV-2345 | Error: First Name is required  |
+      | Olga  |          | LV-1015 | Error: Last Name is required   |
+      | Laura | Greke    |         | Error: Postal Code is required |
 
-  @browser
-  Scenario: User sees correct error message if name is not provided
-    Given user is navigated to page 'https://www.saucedemo.com/'
-    When user enters login 'standard_user' and password 'secret_sauce'
-    And user clicks button to login
-    When user adds item to cart
-    And user clicks cart button
-    When user clicks checkout button
-    When user enter name '' and lastname 'Firsova' and zip 'LV-2345'
-    And user clicks continue button
-    Then user sees error 'Error: First Name is required'
 
-  @browser
-  Scenario: User sees correct error message if lastname is not provided
-    Given user is navigated to page 'https://www.saucedemo.com/'
-    When user enters login 'standard_user' and password 'secret_sauce'
-    And user clicks button to login
-    When user adds item to cart
-    And user clicks cart button
-    When user clicks checkout button
-    When user enter name 'Olga' and lastname '' and zip 'LV-2345'
-    And user clicks continue button
-    Then user sees error 'Error: Last Name is required'
 
-  @browser
-  Scenario: User sees correct error message if zip is not provided
-    Given user is navigated to page 'https://www.saucedemo.com/'
-    When user enters login 'standard_user' and password 'secret_sauce'
-    And user clicks button to login
-    When user adds item to cart
-    And user clicks cart button
-    When user clicks checkout button
-    When user enter name 'Olga' and lastname 'Firsova' and zip ''
-    And user clicks continue button
-    Then user sees error 'Error: Postal Code is required'
+
 
 
 
